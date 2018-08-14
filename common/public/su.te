@@ -2,6 +2,8 @@ type superuser_device, file_type, mlstrustedobject;
 
 ## Perms for the daemon
 
+type sudaemon, domain;
+
 userdebug_or_eng(`
   typeattribute sudaemon domain, mlstrustedsubject;
 
